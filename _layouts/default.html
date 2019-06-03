@@ -1,1 +1,21 @@
-{{ content }}
+{% assign theme = site.theme | default: 'dark' %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" data-theme="{{ theme }}" {% if theme == "dark" %}style="background-color: #222" {% endif %}>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  {% include head.html %}
+</head>
+
+<body>
+  {% include navbar.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  {% include cookie-banner.html %}
+</body>
+
+</html>

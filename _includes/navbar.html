@@ -1,0 +1,12 @@
+<header id="header-top">
+  <nav>
+    {% for item in site.data.navigation.items %}
+    <div>
+      <a href="{{ item.link }}"{% if page.url==item.link %} class="current"{% endif %}>
+        {{ item.name }}
+      </a>
+    </div>
+    {% endfor %}
+  </nav>
+</header>
+<div id="header-top-spacer">&nbsp;</div>
