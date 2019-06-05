@@ -14,8 +14,8 @@ tags: [demo, jekyll]
 
 This is a normal paragraph.
 
-This is [a link](https://yizeng.me) to my homepage.
-A [link](https://yizeng.me/blog "Yi Zeng's Blog") can also have a title.
+This is [a link](https://joel.ellis.link) to my homepage.
+A [link](https://joel.ellis.link/blog/ "Joel Ellis' Blog") can also have a title.
 
 This is a ***text with light and strong emphasis***.
 
@@ -177,4 +177,3 @@ function myFunction() {
 [^1]: This is a footnote.
 
 [kramdown]: https://kramdown.gettalong.org/
-[Simple Texture]: https://github.com/yizeng/jekyll-theme-simple-texture
