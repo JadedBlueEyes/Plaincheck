@@ -1,0 +1,33 @@
+
+table {
+  font-size: 1.05em;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  overflow: scroll;
+  max-width: 100%;
+}
+
+td,
+th {
+  border-right: .125em solid $line-color;
+  padding: .5em 1.125em
+}
+
+td:last-child,
+th:last-child {
+  border-right: 0
+}
+
+td {
+  border-top: .125em solid $line-color;
+}
+
+th,
+td {
+  padding: .375em 1.1875em;
+}
+
+thead {
+  display: table-header-group
+}

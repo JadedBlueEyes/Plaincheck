@@ -1,4 +1,5 @@
 ---
+title: Home
 page-content: >-
   Joel Ellis is a programmer with a passion. He wants to make software fast, for
   good. This is his blog, where he shows you _(hopefully)_ interesting things.

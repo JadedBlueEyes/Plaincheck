@@ -1,0 +1,15 @@
+title: Plaincheck
+sass:
+  sass_dir:           _sass
+  style:              compressed
+
+markdown: kramdown
+commonmark:
+  options: ["SMART", "FOOTNOTES", "UNSAFE", "HARDBREAKS", "LIBERAL_HTML_TAG", "STRIKETHROUGH_DOUBLE_TILDE"]
+  extensions: ["strikethrough", "autolink", "table"]
+
+kramdown:
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+highlighter: rouge

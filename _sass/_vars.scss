@@ -1,0 +1,52 @@
+
+$code-font: Consolas,
+monaco,
+monospace;
+
+$text-font: Open Sans,
+Verdana,
+Segoe,
+sans-serif;
+
+$head-font: Roboto,
+Verdana,
+Segoe,
+sans-serif;
+$gray-000: #181818;
+$gray-100: #222;
+$gray-200: #24292e;
+$gray-300: #343434;
+$gray-400: #586069;
+$gray-600: #7b7b7b;
+$gray-700: #959da5;
+$bg-white: #181818;
+$bg-gray: #202020;
+$bg-gray-light: darken($bg-gray, 5%);
+$border-gray: $gray-300;
+$border-gray-dark: $border-gray;
+$text-gray: #949494;
+$text-gray-dark: #c0c0c0;
+$text-blue: rgb(65, 131, 196);
+$bg-blue-light: #182030;
+$black-fade-15: rgba(#fff, 0.15);
+$black-fade-30: rgba(#fff, 0.3);
+
+$line-color: $gray-400;
+$text-color: $text-gray-dark;
+$link-color: rgb(174, 84, 227);
+$link-active-color: rgb(118, 56, 155);
+
+$code-color: #f8f8f2;
+$code-bg-color: #272822;
+
+$header-hight: 3.5rem;
+$header-margin-height: 0;
+
+$site-width: 95vw; // The side-padding
+
+$bg-color: rgb(255, 255, 255);
+$article-color: rgb(238, 238, 238);
+$cta-color: #037DB5;
+
+$box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
+$light-box-shadow: 0 2px 2.5px 0 rgba(0, 0, 0, .07), 0 0.5px 5px 0 rgba(0, 0, 0, .06), 0 1px 2px -0.5px rgba(0, 0, 0, .1);

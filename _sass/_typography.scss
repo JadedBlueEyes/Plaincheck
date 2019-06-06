@@ -1,0 +1,160 @@
+html {
+  font-family: $text-font;
+  color: $text-color;
+  background-color: $bg-color;
+  word-break: break-word;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 16px;
+  font-family: $head-font;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  padding-top: $header-hight + $header-margin-height + 1.125;
+  margin-top: 0-$header-hight - $header-margin-height;
+}
+
+// #notfound{
+//   margin: 0;
+//   padding: 4rem;
+// }
+
+h1 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+p {
+  font-family: $text-font;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+// blockquotes
+blockquote {
+  font-family: $text-font;
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: $text-gray;
+  border-left: 3px solid $line-color;
+  width: 64em;
+  // min-width: 800px;
+  max-width: 100%;
+  padding-left: 1em;
+  quotes: "\201C""\201D";
+
+  &::before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4rem;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  blockquote {
+    // add margin to nested blockquotes
+    margin-left: 8px;
+    margin-bottom: 0;
+
+    &::before {
+      content: normal;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  margin: 36px 0;
+}
+
+// Horizonal lines
+hr {
+  border: 0;
+  border-bottom: 0.125rem solid $line-color;
+  height: 0;
+  margin: 2.25rem 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+// paragraphs and lists
+p,
+ul,
+ol {
+  font-family: $text-font;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+ul,
+ol {
+  padding-left: 2rem;
+
+  p {
+    padding: 0 0 !important;
+  }
+}
+
+li {
+  padding: 6px 0;
+}
+
+// text styles
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+// Links and Selections
+a {
+  font-weight: bold;
+  color: $link-color;
+  text-decoration: underline;
+
+  &:active {
+    color: $link-active-color;
+  }
+}

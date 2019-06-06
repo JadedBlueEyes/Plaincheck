@@ -1,0 +1,28 @@
+html,
+body {
+  width: 100%;
+  max-width: 100vw;
+  scroll-behavior: smooth;
+}
+
+body {
+  >main {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    // margin-top: 2rem;
+    // margin-bottom: 2rem;
+    // margin: 0 2rem;
+    padding: 5em;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    // @media all and (max-width: 68rem) {
+    //   width: 100%;
+    // }
+    // width: 95%;
+    text-align: initial;
+    >article {
+      max-width: 100%
+    }
+  }
+}

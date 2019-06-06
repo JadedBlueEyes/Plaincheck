@@ -1,0 +1,36 @@
+$custom-track-color: rgba(0, 0, 0, 0);
+$custom-thumb-color: rgba(89, 89, 89, .8);
+$webkit-scrollbar-hover: rgb(89, 89, 89);
+$webkit-scrollbar-width-height: 6px;
+$webkit-scrollbar-border-radius: 0px;
+
+*:not(select) {
+  scrollbar-color: $custom-thumb-color $custom-track-color !important;
+  scrollbar-width: thin !important;
+}
+
+/* Chrome and derivatives*/
+::-webkit-scrollbar {
+  max-width: $webkit-scrollbar-width-height !important;
+  max-height: $webkit-scrollbar-width-height !important;
+  background: $custom-track-color !important;
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  background: $custom-track-color !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $custom-thumb-color !important;
+  border-radius: $webkit-scrollbar-border-radius !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $webkit-scrollbar-hover !important;
+}
+
+:-webkit-full-screen {
+  overflow: auto !important;
+}
