@@ -151,3 +151,14 @@ a {
     color: $link-active-color;
   }
 }
+
+// higher and lower text, along with refs
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
