@@ -16,3 +16,31 @@ kramdown:
 
 highlighter: rouge
 exclude: [node_modules, dist, .sass-cache, .cache, .vscode, .babel.config.js, postcss.config.js, package.json, package-lock.json, Gemfile, Gemfile.lock, bsabel.config.js, brocfile.js, babel.config.js, Plaincheck.gemspec]
+
+collections:
+  authors:
+    output: true
+  favicons:
+    permalink: /:path/:name
+  root_files:
+    permalink: /:path/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true

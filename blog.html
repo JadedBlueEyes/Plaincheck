@@ -1,0 +1,19 @@
+---
+title: Blog
+permalink: /blog/
+layout: default
+description: View a index of all my blog posts.
+---
+
+<article>
+  <h1>Posts</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+      <p>{{ post.description | default: post.excerpt }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</article>
