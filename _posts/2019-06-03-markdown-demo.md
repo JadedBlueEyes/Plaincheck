@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown Demo"
 description: "A demo post to show kramdown features."
-categories: [demo]
+# categories: [demo]
 tags: [demo, jekyll]
 ---
 
