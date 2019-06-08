@@ -7,6 +7,7 @@ body {
 
 body {
   >main {
+    min-height: calc(100vh - 99px);
     overflow-wrap: break-word;
     word-break: break-word;
     // margin-top: 2rem;
@@ -21,6 +22,7 @@ body {
     // }
     // width: 95%;
     text-align: initial;
+
     >article {
       max-width: 100%
     }
@@ -29,13 +31,13 @@ body {
 
 
 @media (max-width: 1000px) {
-  body > main {
+  body>main {
     padding: 5em 3.5em;
   }
 }
 
 @media (max-width: 700px) {
-  body > main {
+  body>main {
     padding: 5em 2em;
   }
 }
