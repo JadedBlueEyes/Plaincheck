@@ -162,3 +162,20 @@ sup {
   vertical-align: super;
   font-size: smaller;
 }
+
+// keyboard tag
+kbd {
+  padding: 0.05em 0.5em;
+  border: .0625em solid $gray-400;
+  /* font-size: 1.0625em; */
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  background-color: $gray-200;
+  color: $gray-700;
+  box-shadow: 0 .0625em 0em rgba(0, 0, 0, 0.2), 0 0 0 .125em $gray-200 inset;
+  border-radius: .1875em;
+  display: inline-block;
+  margin: 0 0.1em;
+  text-shadow: 0 .0625em 0 $gray-200;
+  line-height: 1.4;
+  white-space: nowrap;
+}
