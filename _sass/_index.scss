@@ -1,9 +1,20 @@
+
 @import "reset",
-"scrollbar",
-"classes",
-"vars",
-"fonts",
-"code",
+"vars";
+
+html {
+  font-family: $text-font;
+  color: $text-color;
+  background-color: $bg-color;
+  word-break: break-word;
+}
+
+@import "fonts",
 "typography",
+"classes",
+"layout",
+"header",
+"scrollbar",
 "table",
-"layout";
+"code"
+;
