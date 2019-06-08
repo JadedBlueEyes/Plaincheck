@@ -6,10 +6,6 @@ categories: [demo]
 tags: [demo, jekyll]
 ---
 
-## Table of Contents
-
-{:toc .toc}
-
 ## General Usage
 
 This is a normal paragraph.
@@ -119,9 +115,9 @@ This tag will let you <strike>strikeout text</strike>.
 
 Here comes an image!
 
-<a class="post-image" href="https://kramdown.gettalong.org/overview.png">
+<!-- <a class="post-image" href="https://kramdown.gettalong.org/overview.png">
 <img itemprop="image" src="https://kramdown.gettalong.org/overview.png" alt="Kramdown Overview" />
-</a>
+</a> -->
 
 ## Code
 
