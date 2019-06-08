@@ -176,6 +176,129 @@ function myFunction() {
 }
 {% endhighlight %}
 
+## HTML Tags
+
+### Address Tag
+
+<address>
+  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
+</address>
+
+### Anchor Tag (aka. Link)
+
+This is an example of a [link](http://apple.com "Apple").
+
+<!-- ### Abbreviation Tag
+
+The abbreviation CSS stands for "Cascading Style Sheets".
+
+*[CSS]: Cascading Style Sheets
+*[JS]: JavaScript
+*[HTML]: HyperText Markup Language -->
+
+### Cite Tag
+
+"Code is poetry." ---<cite>Automattic</cite>
+
+### Code Tag
+
+Did you know `word-wrap: break-word;` is actually really useful.
+
+### Strike Tag
+
+This tag will let you ~~strikeout text~~.
+
+### Emphasize Tag
+
+The emphasize tag should _italicize_ text.
+
+### Insert Tag
+
+This tag should denote <ins>inserted</ins> text.
+
+### Keyboard Tag
+
+This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
+
+### Preformatted Tag
+
+This tag styles large blocks of code.
+
+<pre>
+.post-title {
+    margin: 0 0 5px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 1.2;
+    and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
+}
+</pre>
+
+### Quote Tag
+
+<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
+
+### Strong Tag
+
+This tag shows **bold text**.
+
+### Subscript Tag
+
+Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
+
+### Superscript Tag
+
+Still sticking with science and Albert Einstein's E = MC<sup>2</sup>, which should lift the 2 up.
+
+### Variable Tag
+
+This allows you to denote <var>variables</var>.
+
+### Syntax Highlighting
+
+#### CSS
+
+```css
+pre,
+code {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 13px;
+  background-color: #272822;
+  color: #b2ccd6;
+  border-radius: 3px;
+  /* line-height: 1.45; */
+  overflow: auto;
+  padding: .3em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5667px;
+}
+```
+
+#### JS
+
+```js
+function choose (arr) {
+  return arr[
+    Math.floor(Math.random() * arr.length)
+  ];
+}
+```
+
+#### HTML
+
+```html
+<nav class="pagination" role="navigation">
+  {% if page.previous %}
+    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+  {% endif %}
+</nav><!-- /.pagination -->
+```
+
 [^1]: This is a footnote.
 
 [kramdown]: https://kramdown.gettalong.org/
