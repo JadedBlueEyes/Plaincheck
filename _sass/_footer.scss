@@ -1,0 +1,14 @@
+footer.site-footer {
+  background-color: $gray-000;
+  color: $text-color;
+  padding: 1em 0em;
+  text-align: center;
+  width: 100%;
+  margin-top: 1em;
+  display: block;
+}
+
+body>footer>p.copy-notice {
+  text-align: center;
+  margin: 0.25em
+}
