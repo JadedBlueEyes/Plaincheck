@@ -1,0 +1,23 @@
+{
+  "name": "plaincheck",
+  "version": "1.0.0",
+  "scripts": {
+    "css": "postcss _site/assets/main.css -o _site/assets/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelEllis/Plaincheck.git"
+  },
+  "author": "JoelEllis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoelEllis/Plaincheck/issues"
+  },
+  "homepage": "https://github.com/JoelEllis/Plaincheck#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "postcss-csso": "^3.0.0",
+    "postcss-preset-env": "^6.6.0"
+  },
+  "browserslist": "< 0.15%, last 4 years"
+}
