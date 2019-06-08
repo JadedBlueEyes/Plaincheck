@@ -1,0 +1,28 @@
+.prev-next {
+  font-size: 0.875em;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  width: 100%;
+  a {
+    display: block;
+    float: left;
+    margin: 2em;
+    padding: .5em;
+    // background-color: var(--theme-d2-background);
+    color: $text-color;
+  }
+  img {
+    vertical-align: middle;
+    /* mask:  */
+  }
+  .next {
+    padding-left: 1em;
+    text-align: right;
+    float: right;
+  }
+  .prev {
+    padding-right: 1em;
+    float: left;
+  }
+}
