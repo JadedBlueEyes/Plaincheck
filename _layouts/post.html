@@ -6,6 +6,11 @@ layout: default
   <h1 itemprop="name headline">{{ page.title }}</h1>
   <aside class="post-meta">
     <time class="post-date" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+        <!-- <span class="invis" itemprop="discussionUrl"></span> -->
+
+    <meta itemprop="discussionUrl" content="{{ page.url | absolute_url }}#comments">
+    <meta itemprop="url" content="{{ page.url | absolute_url }}">
+    <meta itemprop="description" content="{% if page.description %}{{ page.description | truncate: 170 }}{% elsif post.content %}{{ post.content | strip_newlines | strip | truncate: 157 | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | strip_newlines | strip | truncate: 157 | strip_html }}{% else %}{{ site.description | truncate: 160 }}{% endif %}">
     {% assign author = site.authors | where: 'short_name', page.author | first %}
     {% if author %}
     <div class="author-infocard" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="{{ author.url }}">
