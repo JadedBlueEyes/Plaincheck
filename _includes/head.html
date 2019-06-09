@@ -1,4 +1,10 @@
 <link rel="stylesheet" href="/assets/main.css">
 {% include analytics.html %}
 {% include seo.html %}
+{% if site.favicons == true %}
+{% include favicon.html %}
+{% elsif site.favicons %}
+{{ site.favicons }}
+{% endif %}
+
 {{ page.include_head }}
