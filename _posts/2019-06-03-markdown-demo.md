@@ -4,6 +4,7 @@ title: "Markdown Demo"
 description: "A demo post to show kramdown features."
 # categories: [demo]
 tags: [demo, jekyll]
+author: Joel
 ---
 
 ## General Usage

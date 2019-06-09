@@ -5,6 +5,23 @@ body {
   scroll-behavior: smooth;
 }
 
+.post-meta {
+  margin-top: -1.5em;
+}
+
+.author-infocard {
+  padding: 0.5em 0 1em 0 ;
+}
+
+.post-list li > {
+  p {
+    margin-top: .1em;
+  }
+  h2 {
+    margin-bottom: .5em;
+  }
+}
+
 body {
   >main {
     min-height: calc(100vh - 99px);

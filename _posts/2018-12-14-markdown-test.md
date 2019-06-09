@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Markdown Test
+author: Joel
 date: 2018-12-14 20:08 +0000
 categories:
   - Markup
