@@ -1,11 +1,6 @@
 <link rel="stylesheet" href="/assets/main.css">
 {% include analytics.html %}
 {% include seo.html %}
-{% if site.favicons == true %}
-{% include favicon.html %}
-{% elsif site.favicons %}
-{{ site.favicons }}
-{% else %}
-{% endif %}
+{{ site.favicon_tags}}
 
 {{ page.include_head }}
