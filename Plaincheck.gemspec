@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "plaincheck"
-  spec.version       = "0.1.8"
+  spec.version       = "0.1.9"
   spec.authors       = ["Joel Ellis"]
   spec.email         = ["joel@ellis.link"]
 
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/JoelEllis/Plaincheck"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split(" ").select { |f| f.match(%r!^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))!i)}
+  spec.files         = `git ls-files -z`.split(" ").select { |f| f.match(%r!^(assets|_(includes|layouts|sass)/|(LICENSE|README|404)((\.(txt|md|markdown|html)|$)))!i)}
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
 
